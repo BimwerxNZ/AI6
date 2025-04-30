@@ -448,15 +448,7 @@ export function PersonaSelector(props: {
           />
         )}
 
-        {/* [row -1] YouTube URL */}
-        {isYouTubeTranscriber && (
-          <YouTubeURLInput
-            onSubmit={handleAppendTranscriptAsMessage}
-            sx={{
-              gridColumn: '1 / -1',
-            }}
-          />
-        )}
+        
 
       </Box>
 
